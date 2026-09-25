@@ -1,0 +1,10 @@
+Note interne — suivi du 14 mai
+
+Rendez-vous avec Bruno Fictif, trésorier de l'association partenaire (SIRET 120 027 016 00563),
+joignable au 01 99 00 12 34 ou à bruno.fictif@example.com.
+
+Il signale un paiement refusé avec la carte 4242 4242 4242 4242 et demande un rappel avant vendredi.
+Copie au secrétariat : secretariat@example.net, 05 36 49 00 11.
+
+La relecture doit repérer ce que l'outil ne voit pas : « le trésorier de l'association partenaire »
+désigne une seule personne, sans la nommer.

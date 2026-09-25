@@ -1,0 +1,31 @@
+[project]
+name = "pseudo-local"
+version = "0.1.0"
+description = "Pseudonymiseur de textes francais, 100% local, sans appel reseau a l'execution"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "gliner2[local]>=2.0,<3",
+    "rapidfuzz>=3,<4",
+    "gradio>=6,<7",
+    "python-docx>=1.1,<2",
+    "pypdf>=5,<7",
+    # Exigees par le tokenizer SentencePiece de mdeberta-v3, socle de GLiNER2.
+    # gliner2 ne les declare pas : sans elles, le modele ne se charge pas.
+    "protobuf>=4,<7",
+    "sentencepiece>=0.2,<0.3",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<9"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pseudo"]
+
+[tool.pytest.ini_options]
+markers = ["lent: charge le modele, quelques dizaines de secondes"]

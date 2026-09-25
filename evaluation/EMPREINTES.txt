@@ -1,0 +1,28 @@
+# Empreintes du corpus de test et de la verite terrain.
+# Figes le 2026-09-20, AVANT l'ecriture du code de detection (pseudo/regles.py).
+# Revision 2 : cles de controle SIREN/SIRET/carte/NIR recalculees, une erreur de
+# parite dans le generateur de fixtures ayant produit des cles fausses. Aucun
+# detecteur n'avait encore ete execute sur ce corpus a ce stade.
+# Si un de ces fichiers change apres cette date, le score annonce n'est plus comparable.
+
+5bba8fdda8804d56b056740100d3bdfa6e594f83f6c2093a4a85ce45ac5fb46c  verite_terrain.json
+63bbea93948b9e00d0357471b890e3f2e80376e62d1899c272308290eec2a8c9  corpus/01_mail_beneficiaire.txt
+7977c47fd6c38c917b223d9a2b4a9b2de81edda00bc508fad9e4f9c8eff2e7a4  corpus/02_mail_beneficiaire.txt
+d8662210bb76b398621b968282c2ca90215b244dcd0092f06f964d9c11662015  corpus/03_mail_beneficiaire.txt
+559350c3cb134a3e65bd853d84d29c8569bbbb67d5a973e42cf91ea27b3294b1  corpus/04_mail_equipe.txt
+a3980fa091e09bb6bb04a758e88f345123fcef4a313fc90d9241bbdcde611dc6  corpus/05_cr_ca.txt
+8f4743654d9c64dd409146e251e7048b4ee24606480c36d5d824987e016cdce5  corpus/06_cr_ca.txt
+5c47e6faf51eae3f438ce71d77ef5c2ba8a84bcc442ca791f124781c2bafb84c  corpus/07_cr_ca.txt
+342cae7b02ed2ac260ea1dff46380581d0a266607e03ee8d01f595c603c259c0  corpus/08_subvention.txt
+492e3a0bab20e7afa60d0216c626b9a50a1382055fba8c40a8c0271556177413  corpus/09_subvention.txt
+35726e08ffdf74caad6e8697850ea9ef08115fe80fb3e6f1c16220e0af2bf0da  corpus/10_subvention.txt
+c482f0e55bab428333a2f4e9679d02338151bfac519283912a38369cd2272437  corpus/11_rh.txt
+64b16324d12b1325880ab3772ef3aad884f4424d861c1be95a627a0c321bab67  corpus/12_rh.txt
+4dd6683ecc6eb47929d7837942ab13d6fda245005d3d5650ba4b110362151efe  corpus/13_rh.txt
+fef4d55ed2dc7ae8120a7230ef729f4b56c420e4c435f0ec3b000e7e0384a8bf  corpus/14_suivi_social.txt
+bf0fcdd7d070f9a37f65dee467a30aaa2faaa80cf7ae6d29cf20373d7e5abf79  corpus/15_suivi_social.txt
+a13d8f4cfc0a2fb219fb464db53ba54bbcbd8c54863b3a4948f8b283a894e2d1  corpus/16_suivi_social.txt
+f4b17e55224be65f40c40860b80ab89141e70d9695dba6ccce1cb30b7b0a3498  corpus/17_contrat.txt
+7b58f97a8fa865feae000b867f0d5b55b87b2ce98e07949e968ffdb59fd2dda6  corpus/18_contrat.txt
+ebf666b18ee19753ca9083fb7f9344025f1ea26568baf8a5f15a8290783b9a1a  corpus/19_contrat.txt
+3a459944584a43397e86ad0a408849d005e7421e818d40563dba53677d73a81f  corpus/20_mail_relance.txt

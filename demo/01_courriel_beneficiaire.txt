@@ -1,0 +1,15 @@
+Objet : dossier d'aide au logement
+
+Bonjour,
+
+Je m'appelle Alice Exemple et je vous écris au sujet de ma demande d'aide. Mon dossier est
+enregistré sous la référence DEM-2026-00042.
+
+Vous pouvez me joindre au 06 39 98 56 78 ou par courriel à alice.exemple@example.org.
+Mon adresse : 12 rue de l'Exemple, 00100 Nullepart.
+
+Pour le versement, voici mon IBAN : ZZ43 0000 0000 0000 0000 0000 123.
+Mon numéro de sécurité sociale, si besoin : 2 85 12 99 999 456 76.
+
+Merci d'avance,
+Alice Exemple

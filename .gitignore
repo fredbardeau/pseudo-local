@@ -1,0 +1,67 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+modeles/
+# Jamais de donnees reelles dans le depot :
+*.correspondances.json
+sorties/
+.lanceur.pid
+
+# --- Sorties de l'outil, ou qu'elles soient ecrites ---
+# La CLI ecrit a cote du fichier d'origine : n'importe ou, y compris ici.
+# *.pseudonymise.txt reste une donnee personnelle tant que la table existe ;
+# *.reinjecte.txt contient les VRAIES valeurs remises dans la reponse de l'IA.
+*.pseudonymise.txt
+*.reinjecte.txt
+
+# --- Fichiers d'entree de l'utilisateur, ou qu'ils soient ---
+# Les formats acceptes par l'outil sont ignores partout. Seuls les fichiers du
+# depot listes ci-dessous (et le corpus fictif, plus bas) sont versionnes :
+# un nouveau document du depot doit etre ajoute ici explicitement.
+*.txt
+*.md
+*.docx
+*.doc
+*.odt
+*.rtf
+*.pdf
+!README.md
+!pseudo/REGLES_REFERENCES.md
+!evaluation/RESULTATS_*.md
+!evaluation/EMPREINTES.txt
+!demo/LISEZMOI.md
+!demo/*.txt
+
+# --- Systeme, editeurs, secrets ---
+.DS_Store
+.vscode/
+.idea/
+.env
+.env.*
+
+# --- Verrou du corpus de test ---
+# Seuls les 20 documents FICTIFS figes sont versionnes. Tout autre fichier
+# depose dans ce dossier est ignore par defaut : un vrai document glisse la
+# pour un essai ne peut pas partir sur GitHub par megarde.
+evaluation/corpus/*
+!evaluation/corpus/01_mail_beneficiaire.txt
+!evaluation/corpus/02_mail_beneficiaire.txt
+!evaluation/corpus/03_mail_beneficiaire.txt
+!evaluation/corpus/04_mail_equipe.txt
+!evaluation/corpus/05_cr_ca.txt
+!evaluation/corpus/06_cr_ca.txt
+!evaluation/corpus/07_cr_ca.txt
+!evaluation/corpus/08_subvention.txt
+!evaluation/corpus/09_subvention.txt
+!evaluation/corpus/10_subvention.txt
+!evaluation/corpus/11_rh.txt
+!evaluation/corpus/12_rh.txt
+!evaluation/corpus/13_rh.txt
+!evaluation/corpus/14_suivi_social.txt
+!evaluation/corpus/15_suivi_social.txt
+!evaluation/corpus/16_suivi_social.txt
+!evaluation/corpus/17_contrat.txt
+!evaluation/corpus/18_contrat.txt
+!evaluation/corpus/19_contrat.txt
+!evaluation/corpus/20_mail_relance.txt
